@@ -1,14 +1,22 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Fitness Workout Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+This is a small web app that allows the user to create and edit workouts. They can then view works outs on a seperate dashboard.
+
+## Table of Contents
+
+- [User Story](#User%20Story)
+- [Acceptance Criteria](#Acceptance%20Driteria)
+- [Build Status](#Build%20Status)
+- [Technology](#Code%20Style%20and%20Technology)
+- [Use](#Usage)
+- [Download](#Download)
+- [Credits](#Credits)
+- [Notes](#Notes)
+- [Screenshots](#Screenshots)
 
 ## User Story
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
-
-## Business Context
-
-A consumer will reach their fitness goals quicker when they track their workout progress.
+- As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 ## Acceptance Criteria
 
@@ -16,36 +24,41 @@ When the user loads the page, they should be given the option to create a new wo
 
 The user should be able to:
 
-  * Add exercises to a previous workout plan.
+- Add exercises to a previous workout plan.
+- Add new exercises to a new workout plan.
+- View multiple the combined weight of multiple exercises on the `stats` page.
 
-  * Add new exercises to a new workout plan.
+## Build Status
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.
+Complete and tested as working.
 
-## Commit Early and Often
+## Technology
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+Built using:
+HTML, CSS, Node, Express, Mongoose, Mongo, Morgan
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+## Usage
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+To use this application visit:\
+https://traqueur-de-fitness.herokuapp.com/
 
-Follow these guidelines for committing:
+## Download
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+The source code can be downloaded here:
+https://github.com/SaundersEddie/fitness-tracker
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+## Credits
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+Basic Framework Trilogy
+Functionality creation and testing Eddie Saunders
 
-* Test your application before you commit to ensure functionality at every step in the development process
+https://github.com/SaundersEddie
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+## Notes
 
-## Submission on BCS
+This build experienced many issues throughout, from me pushing the wrong version code up, to git no longer believing the repository was available...
 
-You are required to submit the following:
+## Screenshots
 
-* The URL to the deployed application
-
-* The URL to the Github repository
+![Image1](Picture1.jpg)
+![Image2](Picture2.jpg)
